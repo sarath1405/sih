@@ -46,7 +46,7 @@ const handleClick = (e) => {
                 <label value={input.otherDetails} htmlFor="3">Other</label>
                 <input type="text" name="otherDetails" id="otherDetails" placeholder="otherDetails" onChange={handleChange}/> <br />
             </div>
-            <button className='btn btn-cls' type="submit">Register</button>
+            <button className='btn-cls' type="submit">Register</button>
         </form>
     </div>
   )
