@@ -171,7 +171,7 @@ button {
 }
 
 .iform {
-    border: 4px double black;
+    box-shadow: 0px 3px 10px 1px;
     border-radius: 5px;
     width: 60vh;
     height: 70vh;
@@ -198,7 +198,7 @@ button {
 }
 
 .btn-cls {
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding-bottom: 10px;
     position: relative;
     color: black;
@@ -229,4 +229,99 @@ button {
     margin-top: 15px;
     border: 2px solid #27AE60;
     border-radius: 5px;
+}
+
+.success {
+    letter-spacing: 0.5px;
+    line-height: 80px;
+    box-shadow: 0px 3px 10px 1px;
+    padding: 5vh;
+}
+
+.success a {
+    text-decoration: none;
+}
+
+.success span {
+    color: #018839;
+}
+
+#id {
+    font-size: 50px;
+    color: black;
+}
+
+.government1 {
+    display: flex;
+    width: 50vh;
+    margin: 10vh;
+}
+
+.government input {
+    width: 30vh;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+}
+
+.items {
+    margin-top: 10px;
+    max-height: 50vh;
+
+}
+
+.items button{
+    background: rgb(0,0,0, 0.7);
+    color: #EEE;
+    width: 30vh;
+    padding: 8px;
+    letter-spacing: 1px;
+    cursor: default;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    border: 0;
+}
+
+.govt {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.government button {
+    border: 0;
+}
+
+.government img {
+    width: 30px;
+    height: 30px;
+    margin-left: 3vh;
+}
+
+.government form {
+    display: flex;
+}
+
+.items button:hover {
+    background: rgb(0,0,0,0.5);
+}
+
+.details {
+    border: 1px solid black;
+    line-height: 40px;
+    box-shadow: 0px 3px 10px 1px;
+    padding: 5vh;
+    min-width: 70vh;
+    min-height: 30vh;
+}
+
+.details span {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #018839;
 }
